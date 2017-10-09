@@ -155,7 +155,7 @@ footer .container {
 
 /* Media Queries */
 
-@media only screen and (max-device-width: 1240px) and (max-width: 1240px) {
+@media only screen and (max-device-width: 1240px), (max-width: 1240px) {
   .container {
     max-width: 1024px;
   }
@@ -183,10 +183,11 @@ footer .container {
   }
 }
 
-@media only screen and (max-device-width: 470px) and (max-width: 1240px){
+@media only screen and (max-device-width: 470px), (max-width: 470px){
   /* Banner */
   .banner {
     height: 15rem;
+    width: 100%;
   }
 
   .headline {
