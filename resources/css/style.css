@@ -1,0 +1,147 @@
+/* Global */
+
+body {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+header .container {
+  height: 2.82rem;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+}
+
+span header {
+  font-size: 1rem;
+  padding: 0.66rem 0;
+}
+
+/* Banner */
+
+.banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 25rem;
+  padding-top: 9rem;
+}
+
+.headline {
+  background-color: black;
+  color: white;
+  padding: 2rem 3rem;
+  width: 20rem;
+  font-weight: bold;
+}
+
+.headline h4 {
+  font-size: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.headline h1 {
+  font-size: 2rem;
+}
+
+/* Nav Bar */
+
+nav {
+  width: 100%;
+  padding: 0.75rem 0;
+  color: white;
+  background-color: firebrick;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Product List */
+
+.product-list {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image {
+  height: 9rem;
+  padding: 2rem;
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.product-image img {
+  width: 9rem;
+}
+
+.product-name {
+  display: block;
+  text-align: center;
+  padding: 0.5rem 0;
+  background-color: black;
+  color: white;
+}
+
+/* Business Info */
+
+.info-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+.info-item {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-name {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+footer .container {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+}
