@@ -40,10 +40,8 @@ span header {
 .banner {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   -webkit-background-size: 100%;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
-  z-index: 5;
   max-width: 100%;
   height: 25rem;
   padding-top: 9rem;
@@ -54,6 +52,8 @@ span header {
   color: white;
   padding: 2rem 3rem;
   width: 20rem;
+  display: flex;
+  flex-direction: column;
   font-weight: bold;
 }
 
@@ -180,5 +180,56 @@ footer .container {
 
   .product {
     width: 47%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  /* Banner */
+  .banner {
+    height: 15rem;
+  }
+
+  .headline {
+    width: 100%;
+    padding: 1rem 2rem;
+    margin-top: 10rem;
+  }
+
+  .headline h4 {
+    font-size: 0.77rem;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+  }
+
+  /* Product List */
+  .product-list {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  /* Business Info */
+  .info-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-item {
+    width: 90%;
+    padding: 0.5rem;
+  }
+
+  footer .container {
+    justify-content: center;
   }
 }
